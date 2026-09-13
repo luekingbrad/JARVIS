@@ -1,0 +1,40 @@
+# note: Ignore the local Python virtual environment.
+.venv/
+
+# note: Ignore Python bytecode and cache files.
+__pycache__/
+*.py[cod]
+*$py.class
+
+# note: Ignore macOS metadata files.
+.DS_Store
+
+# note: Ignore JARVIS runtime audit logs.
+logs/*
+!logs/.gitkeep
+
+# note: Ignore JARVIS personal memory while preserving the directory.
+memory/*
+!memory/.gitkeep
+
+# note: Ignore personal JARVIS notes while preserving the directory.
+notes/*
+!notes/.gitkeep
+
+# note: Ignore personal JARVIS task data while preserving the directory.
+tasks/*
+!tasks/.gitkeep
+
+# note: Keep the real local knowledge base private by default.
+knowledge/*
+!knowledge/.gitkeep
+
+# note: Ignore common environment and secret files if they are added later.
+.env
+.env.*
+*.pem
+*.key
+
+# note: Ignore common editor and IDE metadata.
+.vscode/
+.idea/
